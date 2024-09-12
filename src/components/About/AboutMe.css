@@ -1,0 +1,75 @@
+.about-section {
+    padding: 50px 0;
+    background-color: #1b1b1b; /* Dark background color */
+}
+
+.about-title {
+    font-size: 36px;
+    color: #f5c02e;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.about-description {
+    font-size: 16px;
+    color: #b5b5b5;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 16px;
+    color: #b5b5b5;
+    margin-left: 40px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.projects-completed {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5c02e; /* Yellow text for projects completed */
+    margin-left: 40px;
+}
+
+.btn-download-cv {
+    background-color: #f5c02e;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.btn-download-cv:hover {
+    background-color: #e0ac1c;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+
+    .projects-completed {
+        font-size: 16px;
+    }
+}
+
+/* Fix the image to be square with a rounded border */
+.about-section img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center ;
+}

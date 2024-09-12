@@ -1,0 +1,8 @@
+.navbar-custom .nav-link {
+    color: yellow !important; /* Change text color to yellow */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #f5c02e !important; /* Slightly darker yellow on hover */
+  }
+  
